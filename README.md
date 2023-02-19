@@ -24,11 +24,28 @@ nvm -v
 ```
 nvm install node
 ```
-* install the required version node
+* install the required version node:
+```
+nvm install 10.14.0
+```
+* set the required version by default:
 ```
 nvm alias default "version of node"
 ```
-* install the latest version npm with nvm
+* install the latest version npm with nvm:
 ```
 nvm install-latest-npm
 ```
+* list of installed version node:
+```
+nvm ls
+```
+# Fix errors
+> If you have not saved any changes after closing git-bash, then you need to manually make changes to the <code>.bash_profile</code> file (it may be called differently depending on the operating system)
+
+Open this file and add the following lines to the end of it:
+```
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+```
+After adding them, further changes to nvm in git-bash will be saved.
