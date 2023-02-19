@@ -19,3 +19,16 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 ```
 nvm -v
 ```
+> Here is a list of commands for fast and comfortable work with nvm:
+* install the latest version node:
+```
+nvm install node
+```
+* install the required version node
+```
+nvm alias default "version of node"
+```
+* install the latest version npm with nvm
+```
+nvm install-latest-npm
+```
