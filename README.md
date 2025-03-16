@@ -1,4 +1,3 @@
-<a href="https://www.buymeacoffee.com/ITUnit" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 # nvm-Install-Guide
 > Node Version Manager (nvm) - detailed guide for correct installation and configuration.
 
@@ -50,3 +49,5 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 ```
 After adding them, further changes to nvm in git-bash will be saved.
+
+<a href="https://www.buymeacoffee.com/ITUnit" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
